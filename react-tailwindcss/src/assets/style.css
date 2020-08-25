@@ -1,0 +1,12 @@
+.bg-style {
+	background-color: #52ab96;
+	background-size: cover;
+	clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+}
+
+
+@media (max-width: 640px) {
+	.bg-style {
+		display: none;
+	}
+}
